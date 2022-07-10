@@ -4,8 +4,9 @@ input.onGesture(Gesture.TiltRight, function () {
     basic.showString("D")
 })
 input.onGesture(Gesture.TiltLeft, function () {
-    basic.showString("I")
+    basic.showArrow(ArrowNames.West)
     basic.pause(1000)
+    basic.showString("I")
 })
 basic.forever(function () {
 	
